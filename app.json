@@ -14,7 +14,7 @@
     "env": {
       "NGROK_API_TOKEN": {
         "description": "https://dashboard.ngrok.com/get-started/your-authtoken.",
-        "value": "your ngrok api token"
+        "value": "your-ngrok-api-token"
       },
       "PASS": {
         "description": "Set this for authorization for your lavalink server. (default: youshallnotpass)",
