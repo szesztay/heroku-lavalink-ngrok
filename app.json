@@ -19,10 +19,6 @@
       "PASS": {
         "description": "Set this for authorization for your lavalink server. (default: youshallnotpass)",
         "value": "youshallnotpass"
-      },
-      "APP_NAME": {
-        "description": "The heroku app name to keep alive (retype the 'App name'). Leave empty to disable internal pinging.",
-        "value": "your-app-name"
       }
     },
     "buildpacks": [
