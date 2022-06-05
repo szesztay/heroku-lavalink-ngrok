@@ -1,1 +1,1 @@
-authtoken: YOUR_NGROK_KEY
+authtoken: ${NGROK_KEY}
