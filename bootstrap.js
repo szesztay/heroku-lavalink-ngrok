@@ -3,9 +3,10 @@ const fetch = require("node-fetch")
 
 let application = fs.readFileSync("./application.yml", "utf8")
 
-if (process.env.PORT) {
-    application = application.replace("DYNAMICPORT", process.env.PORT)
+if (process.env.NGROK_API_TOKEN) {
+    application = application.replace("your-ngrok-api-token", process.env.NGROK_API_TOKEN)
 }
+fs.writeFileSync("./.ngrok2/ngrok.yml", application)
 
 if (process.env.PASS) {
     application = application.replace("youshallnotpass", process.env.PASS)
