@@ -1,7 +1,7 @@
 {
     "name": "Heroku Lavalink with Ngrok TCP",
     "description": "A Heroku app to deploy your own Lavalink server using Ngrok TCP.",
-    "logo": "https://github.com/szesztay/magicbot-prod-3/blob/main/assets/logo.gif?raw=true",
+    "logo": "https://raw.githubusercontent.com/szesztay/magicbot-prod-3/main/assets/logo.gif",
     "keywords": [
       "Lavalink",
       "lavalink",
