@@ -1,14 +1,15 @@
 {
-    "name": "Lavalink On Heroku",
-    "description": "A Heroku app to deploy your own Lavalink server.",
+    "name": "Heroku Lavalink with Ngrok TCP",
+    "description": "A Heroku app to deploy your own Lavalink server using Ngrok TCP.",
     "keywords": [
       "Lavalink",
       "lavalink",
       "discord-music-streaming",
       "LavalinkOnHeroku",
-      "lavalink-on-heroku"
+      "lavalink-on-heroku",
+      "ngrok"
     ],
-    "repository": "https://github.com/IamTheRealSami/LavalinkOnHeroku",
+    "repository": "https://github.com/szesztay/heroku-lavalink-ngrok",
     "env": {
       "PASS": {
         "description": "Set this for authorization for your lavalink server. (default: youshallnotpass)",
@@ -25,6 +26,9 @@
       },
       {
         "url": "heroku/java"
+      },
+      {
+        "url": "jkutner/ngrok"
       }
     ]
   }
